@@ -1,0 +1,123 @@
+body {
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  nav {
+    display: flex;
+    height: 170px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+   }
+
+   nav img {
+    margin-left: 130px;
+   }
+
+   .nav-items {
+    display: flex;
+    flex-direction: row;
+   }
+
+.nav-item {
+    list-style-type: none;
+    color: #190f8b;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 25px;
+    justify-content: baseline;
+}
+
+.signin-btn {
+    color: #fff;
+    background-color: #8D3DAF;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    margin-right: 230px;
+    background: linear-gradient(90deg, #730090 , rgb(239, 123, 186) );
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.left-section {
+    margin-left: 130px;
+}
+
+.left-section h1 {
+    font-size: 90px;
+    font-family: sans-serif;
+    color:#190f8b;
+    margin-top: 120px;
+}
+
+.left-section h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: rgb(188, 181, 181);
+    line-height: 28px;
+}
+
+.learn-more-btn {
+    color: #fff;
+    background: linear-gradient(90deg, #730090 , rgb(239, 123, 186) );
+    font-size: 30px;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+
+.imgs-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -730px;
+}
+
+.vector-img {
+ margin-top: 700px;
+ margin-right: -40px;
+}
+
+.vector-dot {
+  margin-top: 620px;
+  margin-right: -150px;
+ 
+ }
+
+.intro-img {
+   position: absolute;
+   z-index: 1;
+   margin-top: 200px;
+   margin-left: -100px;
+   height: 1050px;
+}
+    
+.back-cover {
+  height: 1230px;
+}
+   
+   
