@@ -1,4 +1,4 @@
-# FSJS Project 7: Product home page
+# FSJS Project 8: Web design landing page
 
 
 ![Tech](https://img.shields.io/badge/HTML-CSS-blue)
